@@ -1,0 +1,27 @@
+{
+  "name": "glean-gulp",
+  "version": "0.9.0",
+  "description": "Gulp plugin to allow build-time processing for the Glean asset pipeline.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asset",
+    "pipeline",
+    "glean",
+    "gulp"
+  ],
+  "author": "Adam Daniel <adam@acdaniel.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fs": "^0.1.7",
+    "event-stream": "^3.1.7",
+    "gulp-util": "^3.0.1",
+    "lodash-node": "^2.4.1",
+    "q": "^1.0.1"
+  },
+  "peerDependencies": {
+    "glean": "^0.9.0"
+  }
+}
